@@ -20,22 +20,37 @@ const Facts = () => {
                transition={{ duration: 0.75, ease: "easeOut" }}
                className="facts">
             <m.div
-                animate={{ x: move ? 250 : -250 }}
-                transition={{ type: "spring", bounce: 0.6 }}
-                onClick={() => {
-                setMove(!move);
-                }}
-                className="facts-block">
-            <m.h1
                 initial={{ y: "70%" }}
                 animate={{ y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
             >
-                Giraffe Fun Fact
-            </m.h1>
-            <button onClick={fetchGiraffeFact}>Get a Giraffe Fact</button>
+            <h1
+            >
+               Giraffe Facts Pool
+            </h1>
+            <p>Get A Fun Fact About Giraffe In A Click</p>
             </m.div>
+            <m.div
+                animate={{ x: move ? 250 : -250 }}
+                transition={{ type: "spring"}}
+                onClick={() => {
+                setMove(!move);
+                }}
+                className="facts-block">
+            <button onClick={fetchGiraffeFact}>Get a Fact
+                </button>
+            </m.div>
+
+        <m.div
+            animate={{ x: move ? -250 : 250 }}
+            transition={{ type: "spring" }}
+            onClick={() => {
+                setMove(!move);
+            }}
+
+            className="result">
             {giraffeFact && <p>{giraffeFact.fact}</p>}
+        </m.div>
         </m.div>
     );
 }
