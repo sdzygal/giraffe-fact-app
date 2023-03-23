@@ -22,3 +22,8 @@ ul {
 .navbar-menu li {
     padding: 0 2rem;
 }
+
+.navbar-menu li:hover {
+    color: #fff;
+    font-weight: 900;
+}

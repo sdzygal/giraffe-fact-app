@@ -9,7 +9,14 @@ const Home = () => {
                transition={{ duration: 0.75, ease: "easeOut" }}
                exit={{ opacity: 1 }}
                className="giraffeHome">
-            <h1 className="giraffeHome__title">Welcome to the World of Giraffe</h1>
+            <h1 className="giraffeHome__title">Welcome to
+                <span className="giraffeWorld"> the Giraffe World</span>
+            </h1>
+            <div className="scrollDown">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </m.div>
     );
 }
