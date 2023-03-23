@@ -1,0 +1,26 @@
+.giraffeHome {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    background-image: url("../../assets/background_1.jpeg");
+    background-size: cover;
+    background-color: #fde8d1; /* Used if the image is unavailable */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.giraffeHome__title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 14rem 0 15rem 25rem;
+    color: #333;
+    font-size: 36px;
+
+}

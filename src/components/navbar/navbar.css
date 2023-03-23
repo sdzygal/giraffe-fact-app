@@ -1,0 +1,24 @@
+.navbar {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 2;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu li {
+    padding: 0 2rem;
+}
