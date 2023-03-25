@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Facts from "./containers/facts/Facts";
 import Home from "./containers/home/Home";
 import { AnimatePresence } from "framer-motion";

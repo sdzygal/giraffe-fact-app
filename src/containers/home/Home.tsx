@@ -1,16 +1,11 @@
 import React from 'react';
 import './home.css';
 import { motion as m } from "framer-motion";
-import Facts from "../facts/Facts";
+
 
 
 const Home = () => {
 
-    // const handleScroll = () => {
-    //   return (
-    //
-    //   )
-    // };
 
     return (
         <m.div initial={{ y: "100%" }}

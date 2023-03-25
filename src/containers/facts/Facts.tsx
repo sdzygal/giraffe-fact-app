@@ -4,6 +4,7 @@ import { GiraffeFact } from "../../types";
 import { factService } from "../../factService";
 import { motion as m } from "framer-motion";
 
+
 const Facts = () => {
     const [giraffeFact, setGiraffeFact] = useState<GiraffeFact | null>(null);
     const [move, setMove] = React.useState(false);
@@ -14,6 +15,8 @@ const Facts = () => {
         const randomFact = factService.getRandomFact();
         setGiraffeFact(randomFact);
     };
+
+
     return (
         <m.div initial={{ y: "100%" }}
                animate={{ y: "0%" }}
