@@ -1,17 +1,24 @@
 import React from 'react';
 import './home.css';
 import { motion as m } from "framer-motion";
+import Facts from "../facts/Facts";
+
 
 const Home = () => {
+
+    // const handleScroll = () => {
+    //   return (
+    //
+    //   )
+    // };
+
     return (
         <m.div initial={{ y: "100%" }}
                animate={{ y: "0%" }}
                transition={{ duration: 0.75, ease: "easeOut" }}
                exit={{ opacity: 1 }}
                className="giraffeHome">
-            <h1 className="giraffeHome__title">Welcome to
-                <span className="giraffeWorld"> the Giraffe World</span>
-            </h1>
+                <h1 className="giraffeHome__title">The World of<br/> Giraffe</h1>
             <div className="scrollDown">
                 <span></span>
                 <span></span>

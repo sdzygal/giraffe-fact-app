@@ -13,9 +13,9 @@ function App() {
    <div className="App">
          <AnimatePresence>
             <Navbar />
-           <Routes>
-            <Route index path="/" element={<Home />} key={1} />
-         <Route path="/facts" element={<Facts />} />
+            <Routes>
+            <Route index path="/" element={<Home />}  />
+            <Route path="/facts" element={<Facts />} />
            </Routes>  </AnimatePresence>
    </div>
   );

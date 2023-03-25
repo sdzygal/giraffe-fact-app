@@ -1,5 +1,5 @@
 .navbar {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: transparent;
     text-align: center;
     width: 100%;
@@ -21,9 +21,11 @@ ul {
 
 .navbar-menu li {
     padding: 0 2rem;
+    color: #B8742C;
+    font-weight: 600;
 }
 
 .navbar-menu li:hover {
-    color: #fff;
+    color: #5f5e3c;
     font-weight: 900;
 }

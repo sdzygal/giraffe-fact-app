@@ -12,18 +12,38 @@
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
+
 
 .giraffeHome__title {
-    display: flex;
-    justify-content: center;
+    font-size: 80px;
+    font-weight: 700;
+    align-content:center;
     padding: 20px;
-    margin: 14rem 0 15rem 25rem;
-    color: #333;
-    font-size: 36px;
-
+    margin-left: 35rem;
+    margin-top: 11rem;
+    background-image: linear-gradient(
+            -225deg,
+            #090101 0%,
+            #44107a 29%,
+            #d0662e 67%,
+            #5f5e3c 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    display: inline-block;
+    text-align: center;
 }
+
+
 
 .scrollDown {
     position: absolute;
@@ -42,8 +62,8 @@
     display: block;
     width: 100%;
     height: 100%;
-    border-bottom: 2px solid #DECBB7;
-    border-right: 2px solid #DECBB7;
+    border-bottom: 4px solid #eca968;
+    border-right: 4px solid #eca968;
     animation: animate 1.5s linear infinite;
 }
 
@@ -81,4 +101,10 @@
         opacity: 0;
     }
 
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
 }
