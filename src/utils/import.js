@@ -1,0 +1,55 @@
+import imgUrl_1 from "../assets/img_1.jpeg";
+import imgUrl_2 from "../assets/img_2.jpeg";
+import imgUrl_3 from "../assets/img_3.jpeg";
+import imgUrl_4 from "../assets/img_4.jpeg";
+import imgUrl_5 from "../assets/img_5.jpeg";
+import imgUrl_6 from "../assets/img_6.jpeg";
+import imgUrl_7 from "../assets/img_7.jpeg";
+import imgUrl_8 from "../assets/img_8.jpeg";
+import imgUrl_9 from "../assets/img_9.jpeg";
+import imgUrl_10 from "../assets/img_10.jpeg";
+import imgUrl_11 from "../assets/img_11.jpeg";
+import imgUrl_12 from "../assets/img_12.jpeg";
+import imgUrl_13 from "../assets/img_13.jpeg";
+import imgUrl_14 from "../assets/img_14.jpeg";
+import imgUrl_15 from "../assets/img_15.jpeg";
+import imgUrl_16 from "../assets/img_16.jpeg";
+import imgUrl_17 from "../assets/img_17.jpeg";
+import imgUrl_18 from "../assets/img_18.jpeg";
+import imgUrl_19 from "../assets/img_19.jpeg";
+import imgUrl_20 from "../assets/img_20.jpeg";
+import imgUrl_21 from "../assets/img_21.jpeg";
+import imgUrl_22 from "../assets/img_22.jpeg";
+import imgUrl_23 from "../assets/img_23.jpeg";
+import imgUrl_24 from "../assets/img_24.jpeg";
+import imgUrl_25 from "../assets/img_25.jpeg";
+import imgUrl_26 from "../assets/img_26.jpeg";
+import imgUrl_27 from "../assets/img_27.jpeg";
+import imgUrl_28 from "../assets/img_28.jpeg";
+import imgUrl_29 from "../assets/img_29.jpeg";
+import imgUrl_30 from "../assets/img_30.jpeg";
+import imgUrl_32 from "../assets/img_32.jpeg";
+import imgUrl_33 from "../assets/img_33.jpeg";
+import imgUrl_34 from "../assets/img_34.jpeg";
+import imgUrl_35 from "../assets/img_35.jpeg";
+import imgUrl_36 from "../assets/img_36.jpeg";
+import imgUrl_37 from "../assets/img_37.jpeg";
+import imgUrl_38 from "../assets/img_38.jpeg";
+import imgUrl_39 from "../assets/img_39.jpeg";
+import imgUrl_40 from "../assets/img_40.jpeg";
+import imgUrl_41 from "../assets/img_41.jpeg";
+import imgUrl_42 from "../assets/img_42.jpeg";
+import imgUrl_43 from "../assets/img_43.jpeg";
+import imgUrl_44 from "../assets/img_44.jpeg";
+import imgUrl_45 from "../assets/img_45.jpeg";
+import imgUrl_46 from "../assets/img_46.jpeg";
+import imgUrl_47 from "../assets/img_47.jpeg";
+import imgUrl_48 from "../assets/img_48.jpeg";
+import imgUrl_49 from "../assets/img_49.jpeg";
+import imgUrl_50 from "../assets/img_50.jpeg";
+import imgUrl_51 from "../assets/img_51.jpeg";
+
+
+export { imgUrl_1, imgUrl_2, imgUrl_3, imgUrl_4, imgUrl_5, imgUrl_6, imgUrl_7, imgUrl_8, imgUrl_9, imgUrl_10, imgUrl_11, imgUrl_12, imgUrl_13, imgUrl_14, imgUrl_15, imgUrl_16, imgUrl_17, imgUrl_18, imgUrl_19,
+    imgUrl_20, imgUrl_21, imgUrl_22, imgUrl_23, imgUrl_24, imgUrl_25, imgUrl_26, imgUrl_27, imgUrl_28, imgUrl_29, imgUrl_30, imgUrl_32, imgUrl_33, imgUrl_34, imgUrl_35, imgUrl_36, imgUrl_37,
+    imgUrl_38, imgUrl_39, imgUrl_40, imgUrl_41, imgUrl_42, imgUrl_43, imgUrl_44, imgUrl_45, imgUrl_46, imgUrl_47, imgUrl_48, imgUrl_49, imgUrl_50, imgUrl_51 };
