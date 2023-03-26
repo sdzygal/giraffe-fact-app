@@ -35,7 +35,6 @@ export const giraffeFacts: GiraffeFact[] = [
     { fact: "Giraffes allow red-billed ox peckers (a bird species) to perch on them to feed on ticks." },
     { fact: "Egyptian hieroglyphs use the giraffe as a character, pronounced 'sr'." },
     { fact: "Designers of suits for fighter pilots studied giraffe skin, since fighter pilots are also at risk of passing out when blood rushes to the legs." },
-    { fact: "The Humr people of Sudan use giraffe liver to create a putatively hallucinogenic drink called 'umm nyolokh'. The drink's psychoactive properties may come from the giraffe's diet of acacia plants." },
     { fact: "The giraffe is the national animal of Tanzania." },
     { fact: "There are around 100,000 giraffes in the wild as of 2016." },
     { fact: "Giraffes only need to drink every few days. Most of their water comes from the vegetation they eat." },

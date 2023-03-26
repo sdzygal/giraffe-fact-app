@@ -37,11 +37,13 @@ button {
     box-shadow: 0 5px 5px rgba(0,0,0,.2);
     border: none;
     color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     padding: 20px 40px;
     text-align: center;
     text-decoration: none;
     display: block;
-    left: 21rem;
+    margin-left: 200%;
     font-size: 1.2em;
     cursor: pointer;
     border-radius: 20px;

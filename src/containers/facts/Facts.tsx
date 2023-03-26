@@ -48,7 +48,7 @@ const Facts = () => {
             </m.div>
             <div className="facts-block">
             <m.div
-                animate={{ x: move ? 250 : -350 }}
+                animate={{ x: move ? 200 : -400 }}
                 transition={{ type: "spring"}}
                 onClick={() => {
                 setMove(!move);
