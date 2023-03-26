@@ -5,7 +5,6 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 
-
 function App() {
 
   return (
@@ -13,7 +12,7 @@ function App() {
          <AnimatePresence>
             <Navbar />
             <Routes>
-            <Route index path="/" element={<Home />}  />
+            <Route index path="/" element={<Home />} />
             <Route path="/facts" element={<Facts />} />
            </Routes>  </AnimatePresence>
    </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import { motion as m } from "framer-motion";
+import { Link } from "react-router-dom";
 
 
 
@@ -14,12 +15,8 @@ const Home = () => {
                exit={{ opacity: 1 }}
                className="giraffeHome">
                 <h1 className="giraffeHome__title">The World of<br/> Giraffe</h1>
-            <div className="scrollDown">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </m.div>
+               <Link to="/facts"><button type="button">Discover Giraffes</button></Link>
+</m.div>
     );
 }
 
