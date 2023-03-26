@@ -36,7 +36,7 @@ const Facts = () => {
                className="facts">
             <m.div
                 initial={{ y: "70%" }}
-                animate={{ y: 0 }}
+                animate={{ y: "0" }}
                 transition={{ delay: 0.5, duration: 0.5 }}
                 className="text-block"
             >
@@ -48,7 +48,7 @@ const Facts = () => {
             </m.div>
             <div className="facts-block">
             <m.div
-                animate={{ x: move ? 350 : -250 }}
+                animate={{ x: move ? 250 : -350 }}
                 transition={{ type: "spring"}}
                 onClick={() => {
                 setMove(!move);
