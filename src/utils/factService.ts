@@ -44,7 +44,7 @@ export const giraffeFacts: GiraffeFact[] = [
     { fact: "June 21 is World Giraffe Day." },
     { fact: "Toys R' Us has used Geoffrey the Giraffe as its mascot since 1965, although earlier advertisements in the 1950's used another giraffe: Dr. G. Raffe." },
     { fact: "Giraffe hooves are 1 foot in diameter." },
-    { fact: "About 50% of giraffe calves die in their first year, mostly due to predation." },
+    { fact: "about 50% of giraffe calves die in their first year, mostly due to predation." },
     { fact: "The giraffe's average walking speed is 10 miles per hour." },
     { fact: "The giraffe's tongue is colored dark blue." },
     { fact: "Some of giraffes' vocalizations are too low to be heard by human ears." },

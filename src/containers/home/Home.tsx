@@ -15,7 +15,7 @@ const Home = () => {
                exit={{ opacity: 1 }}
                className="giraffeHome">
                 <h1 className="giraffeHome__title">The World of<br/> Giraffe</h1>
-               <Link to="/facts"><button type="button">Discover Giraffes</button></Link>
+               <Link to="/facts"><button type="button" className="otherBtn">Discover Giraffes</button></Link>
 </m.div>
     );
 }

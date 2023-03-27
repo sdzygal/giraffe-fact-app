@@ -1,0 +1,49 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.leftSide {
+    display: block;
+    width: 550px;
+    padding: 2rem;
+    margin: 10rem 0 0 10rem;
+}
+
+.leftSide p {
+    text-align: left;
+    color: #333;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 100;
+}
+
+.subtext {
+    margin-bottom: -6rem;
+}
+
+.leftSide h1 {
+    color: #333;
+    margin-left: 2rem;
+}
+
+.leftSide button {
+    top: -1.5rem;
+    right: 17rem;
+    color: #333;
+    box-shadow: 12px -3px 9px rgba(51, 51, 51, .5);
+}
+
+.rightSide {
+    display: flex;
+}
+
+.rightSide img {
+    width: 580px;
+    height: auto;
+    margin: 7rem 0 0 3rem;
+    overflow: hidden;
+    box-shadow: 5px 0 10px rgba(51, 51, 51, .5);
+}
