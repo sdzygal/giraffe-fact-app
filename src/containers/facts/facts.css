@@ -5,6 +5,7 @@
     justify-content: center;
     text-align: center;
     min-height: 100vh;
+    width: auto;
     background-color: #333;
     font-family: 'Quicksand', sans-serif;
     position: absolute;
@@ -137,4 +138,74 @@ p {
     max-width: 550px;
     height: 400px;
     opacity: 0.88;
+}
+
+
+@media screen and (max-width: 1077px) {
+    .giraffeImg {
+        max-width: 380px;
+        height: 300px;
+    }
+
+    button {
+        aspect-ratio: 2;
+        width: 180px;
+        margin-left: 165%;
+        transition: .2s
+    }
+
+   .text-block h1 {
+        margin-top: 8rem;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0 0 6rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .giraffeImg {
+       display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .facts {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .result {
+        max-width: 150px;
+    }
+
+    .result p {
+        position: relative;
+        top: 6rem;
+        margin: 0;
+        padding: 0;
+    }
+
+   .text-block h1 {
+    margin-top: 3rem;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 1rem 0 4rem;
+    }
+
+    .facts-block {
+        flex-direction: column;
+    }
+
+    button {
+        aspect-ratio: 3;
+        margin-left: 170%;
+    }
 }

@@ -4,12 +4,17 @@ import { GiraffeFact, GiraffeImg } from "../../utils/types";
 import { factService } from "../../utils/factService";
 import { imgService } from "../../utils/imgService";
 import { motion as m } from "framer-motion";
+import {useIsBig, useIsMedium, useIsSmall} from "../../utils/media";
 
 
 const Facts = () => {
     const [giraffeFact, setGiraffeFact] = useState<GiraffeFact | null>(null);
     const [giraffeImg, setGiraffeImg] = useState<GiraffeImg | null>(null);
     const [move, setMove] = React.useState(false);
+
+    const isSmall = useIsSmall();
+    const isMedium = useIsMedium();
+    const isBig = useIsMedium();
 
 
 
@@ -48,7 +53,7 @@ const Facts = () => {
             </m.div>
             <div className="facts-block">
             <m.div
-                animate={{ x: move ? 200 : -400 }}
+                animate={isBig ? { x: move ? 90 : -300 } : {x: move ? 200 : -400}}
                 transition={{ type: "spring"}}
                 onClick={() => {
                 setMove(!move);
@@ -59,7 +64,7 @@ const Facts = () => {
             </m.div>
 
         <m.div
-            animate={{ x: move ? -290 : 190 }}
+            animate={ isBig ? {x: move ? -210: 110} : { x: move ? -290 : 190 }}
             transition={{ type: "spring" }}
             onClick={() => {
                 setMove(!move);
