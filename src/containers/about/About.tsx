@@ -21,7 +21,7 @@ const About = () => {
                     Portfolio Project App
                 </h1>
                 <p>
-                    This is portfolio project app. It was born as a perfect idea to showcase my knowledge based up on my passion to these beautiful animals. Make yourself comfortable here as you are going to learn a lot about giraffes!
+                    The Giraffe Facts App is a portfolio project app. It was born a perfect idea to showcase my knowledge based on my passion for these beautiful animals. Make yourself comfortable here, as you will learn a lot about giraffes!
                 </p>
                 <Link to={website} target="_blank"><button type="button" className="otherBtn">More Works</button></Link>
             </div>
