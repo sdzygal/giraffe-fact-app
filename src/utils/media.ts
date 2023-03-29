@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 
-export const useIsSmall = () => useMediaQuery('(max-width: 480px)');
-export const useIsMedium = () => useMediaQuery('(max-width: 678px)');
 export const useIsBig = () => useMediaQuery('(max-width: 1077px)');
 
 function useMediaQuery(query: string): boolean {

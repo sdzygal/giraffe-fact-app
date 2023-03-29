@@ -164,9 +164,6 @@ p {
         text-align: center;
     }
 
-    div.style {
-        transform: translateY(0%) translateZ(0px) translateX(0%);
-    }
 }
 
 @media screen and (max-width: 678px) {

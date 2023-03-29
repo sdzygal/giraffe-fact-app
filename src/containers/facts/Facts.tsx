@@ -4,7 +4,7 @@ import { GiraffeFact, GiraffeImg } from "../../utils/types";
 import { factService } from "../../utils/factService";
 import { imgService } from "../../utils/imgService";
 import { motion as m } from "framer-motion";
-import {useIsBig, useIsMedium, useIsSmall} from "../../utils/media";
+import {useIsBig} from "../../utils/media";
 
 
 const Facts = () => {
@@ -12,8 +12,6 @@ const Facts = () => {
     const [giraffeImg, setGiraffeImg] = useState<GiraffeImg | null>(null);
     const [move, setMove] = React.useState(false);
 
-    const isSmall = useIsSmall();
-    const isMedium = useIsMedium();
     const isBig = useIsBig();
 
 
