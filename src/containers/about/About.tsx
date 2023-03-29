@@ -21,9 +21,9 @@ const About = () => {
                     Portfolio Project App
                 </h1>
                 <p>
-                    This is portfolio project app. This is portfolio project app. This is portfolio project app. This is portfolio project app. This is portfolio project app.
+                    This is portfolio project app. It was born as a perfect idea to showcase my knowledge based up on my passion to these beautiful animals. Make yourself comfortable here as you are going to learn a lot about giraffes!
                 </p>
-                <Link to={website} target="_blank"><button type="button" className="otherBtn">Learn More</button></Link>
+                <Link to={website} target="_blank"><button type="button" className="otherBtn">More Works</button></Link>
             </div>
 
             <m.div

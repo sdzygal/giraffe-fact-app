@@ -150,7 +150,7 @@ p {
     button {
         aspect-ratio: 2;
         width: 180px;
-        margin-left: 165%;
+        margin-left: 180%;
         transition: .2s
     }
 
