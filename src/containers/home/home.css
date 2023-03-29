@@ -51,9 +51,41 @@
     color: #44107a;
     padding: 20px;
     box-shadow: 10px -3px 0.5px rgba(208, 102, 46, 0.2);
-
 }
 
+
+
+
+@media screen and (max-width: 1110px) {
+    .giraffeHome__title {
+        font-size: 66px;
+        margin-left: 18rem;
+        margin-top: 9rem;
+    }
+
+    .homeBtn {
+        top: -3rem;
+        margin-left: 56%;
+        padding: 0 20px;
+        font-size: 17.3px;
+        }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .giraffeHome__title {
+        font-size: 40px;
+        margin-left: 5rem;
+        margin-top: 7rem;
+    }
+
+    .homeBtn {
+        top: -2rem;
+        margin-left: 40%;
+        font-size: 16px;
+        aspect-ratio: 4;
+    }
+}
 
 @keyframes textclip {
     to {
