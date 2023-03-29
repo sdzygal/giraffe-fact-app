@@ -14,7 +14,7 @@ const Facts = () => {
 
     const isSmall = useIsSmall();
     const isMedium = useIsMedium();
-    const isBig = useIsMedium();
+    const isBig = useIsBig();
 
 
 
@@ -53,7 +53,7 @@ const Facts = () => {
             </m.div>
             <div className="facts-block">
             <m.div
-                animate={isBig ? { x: move ? 90 : -300 } : {x: move ? 200 : -400}}
+                animate={isBig ? { x: move ? 50 : -340 } : {x: move ? 120 : -400}}
                 transition={{ type: "spring"}}
                 onClick={() => {
                 setMove(!move);
@@ -64,7 +64,7 @@ const Facts = () => {
             </m.div>
 
         <m.div
-            animate={ isBig ? {x: move ? -210: 110} : { x: move ? -290 : 190 }}
+            animate={ isBig ? {x: move ? -210 : 40} : { x: move ? -290 : 190 }}
             transition={{ type: "spring" }}
             onClick={() => {
                 setMove(!move);

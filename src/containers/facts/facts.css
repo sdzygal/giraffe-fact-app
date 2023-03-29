@@ -163,11 +163,29 @@ p {
         margin: 0 0 6rem;
         text-align: center;
     }
+
+    div.style {
+        transform: translateY(0%) translateZ(0px) translateX(0%);
+    }
 }
 
 @media screen and (max-width: 678px) {
+    .facts-block {
+        margin-top: -4rem;
+
+    }
+
+    button {
+        margin-left: 160%;
+    }
+
+    .result {
+        max-width: 300px;
+    }
+
     .giraffeImg {
-       display: none;
+        max-width: 290px;
+        height: 260px;
     }
 
 }
